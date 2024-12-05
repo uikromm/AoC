@@ -3,7 +3,7 @@ import math
 list1 = []
 list2 = []
 
-with open("./locationIDs.txt", 'r') as ids:
+with open("./data.txt", 'r') as ids:
 	for id in ids:
 		lists = id.split()
 
@@ -19,3 +19,5 @@ for l1 in range(0 , len(list1)):
     distance.append(abs(int(list1[l1]) - int(list2[l1])))
 
 print(sum(distance))
+
+# Total distance: 1580061
