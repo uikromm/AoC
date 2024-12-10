@@ -18,6 +18,14 @@ distance = []
 for l1 in range(0 , len(list1)):
     distance.append(abs(int(list1[l1]) - int(list2[l1])))
 
-print(sum(distance))
+# print(sum(distance))
 
 # Total distance: 1580061
+
+# Test 2
+result = []
+for l1 in list1:
+	if l1 in list2:
+		for l2 in list2:
+			if l1 == l2:
+				print(int(l1) + int(l2))

@@ -1,4 +1,0 @@
-1. Turning to right and left sides: DONE
-2. Sorting the smallest number: DONE
-3. Finding the distance between right and left sides if cols' number was the same return 
-4. Adding all the distances
