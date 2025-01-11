@@ -1,0 +1,5 @@
+- Reading and splitting the file: O(n)
+- Sorting the lists: O(nlogn)
+- Calculating distances: O(n)
+- Summing distances: O(n)
+- Overall: O(n log n)
